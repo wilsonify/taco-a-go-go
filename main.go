@@ -14,6 +14,6 @@ func respond(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", respond)
-	fmt.Printf("main.go: Go app listening on port 8000\n")
-	http.ListenAndServe(":8000", nil)
+	fmt.Printf("main.go: Go app listening on port 8080\n")
+	http.ListenAndServe(":8080", nil)
 }

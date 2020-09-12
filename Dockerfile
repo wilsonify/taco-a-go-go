@@ -6,4 +6,4 @@ RUN go mod download
 ADD . /app/ 
 RUN go build -o main . 
 CMD ["/app/main"]
-EXPOSE 8000
+EXPOSE 8080
